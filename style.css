@@ -108,7 +108,33 @@ input{
 .carimg{
 margin-top:2px;
 }
-
+.arrow{
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+ .list{
+    display: none;
+}/*
+a:hover .list{
+    display: block;
+}
+.list li{
+    float: none !important;
+    border: none !important;
+    border-left: none !important;
+    display: none;
+}
+.list>li>a{
+    display: block;
+    border: none;
+}
+li:hover>ul{
+    color: red;
+}
+.list li a:hover{
+    display: block;
+} */
 input::-webkit-input-placeholder {
     color:  #2c71b8; 
 }
